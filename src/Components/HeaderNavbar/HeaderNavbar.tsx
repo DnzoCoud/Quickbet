@@ -12,7 +12,7 @@ export default function HeaderNavbar() {
         height={40}
         fetchPriority="high"
         quality={20}
-        className="mx-5"
+        className="mx-8"
       />
       <nav className={styles.navbar}>
         <ul>
