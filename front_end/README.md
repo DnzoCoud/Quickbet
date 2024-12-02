@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Proyecto de Next.js QuickBet
 
-## Getting Started
+Este es un proyecto desarrollado con **Next.js** framework para la creación de aplicaciones web escalables, rápidas y optimizadas.
 
-First, run the development server:
+## Índice
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Descripción](#descripción)
+- [Tecnologías](#tecnologías)
+- [Requisitos](#requisitos)
+- [Instalación](#instalación)
+- [Uso](#uso)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Descripción
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Este proyecto es una aplicación web construida con **Next.js**, un framework de React que ofrece **renderizado del lado del servidor (SSR)** y **generación de sitios estáticos (SSG)**, optimizando el rendimiento y el SEO. El objetivo principal es proporcionar una plataforma para ver la información de las peliculas.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tecnologías
 
-## Learn More
+- **Next.js** - Framework de React para aplicaciones full-stack.
+- **React** - Biblioteca para la interfaz de usuario.
+- **TypeScript** - Superset de JavaScript para un código más robusto.
+- **ESLint & Prettier** - Herramientas de linting y formateo para mantener el código limpio y consistente.
 
-To learn more about Next.js, take a look at the following resources:
+## Requisitos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Node.js** (v18 o superior)
+- **npm** o **yarn** para manejar dependencias.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Instalación
 
-## Deploy on Vercel
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/DnzoCoud/Quickbet.git
+   cd Quickbet
+   ```
+2. Instala las dependencias:
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Uso
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Para iniciar hacer el build de la app, ejecuta:
+
+   ```bash
+   npm run build
+   ```
+
+2. Inicia la app con el comando:
+   ```bash
+   npm run start
+   ```

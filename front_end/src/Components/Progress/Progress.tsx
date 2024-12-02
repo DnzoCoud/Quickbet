@@ -1,33 +1,31 @@
-"use client"
-import React, { useMemo, useState } from "react";
+"use client";
+import React, { useMemo } from "react";
 
 interface ProgressProps {
   className?: string;
   progress: number;
-  size?:number
+  size?: number;
 }
 
 export default function Progress(props: ProgressProps) {
-  const {size = 80, progress} = props;
+  const { size = 80, progress } = props;
   const radius = (size - 10) / 2;
   const circumference = 2 * Math.PI * radius;
-  const strokeDashoffset =
-    circumference - (progress / 100) * circumference;
+  const strokeDashoffset = circumference - (progress / 100) * circumference;
 
   const fontSize = size * 0.25;
 
-  const [colors, setColors] = useState({
-    low: ["#f44336", "#641E16"],
-    medium: ["#ff9800", "#B9770E"],
-    high: ["#4caf50", "#1E8449"],
-  });
-
   const progressColor = useMemo(() => {
+    const colors = {
+      low: ["#f44336", "#641E16"],
+      medium: ["#ff9800", "#B9770E"],
+      high: ["#4caf50", "#1E8449"],
+    };
+
     if (progress < 33) return colors.low;
     if (progress < 66) return colors.medium;
     return colors.high;
-  }, [progress, colors]);
-
+  }, [progress]);
 
   return (
     <div>
@@ -57,7 +55,7 @@ export default function Progress(props: ProgressProps) {
           transform={`rotate(-90 ${size / 2} ${size / 2})`} // Rotación para empezar en la parte superior
         />
 
-         <text
+        <text
           x="50%"
           y="50%"
           dominantBaseline="middle"
