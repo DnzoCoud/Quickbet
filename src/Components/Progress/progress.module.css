@@ -1,6 +1,0 @@
-.progress__main {
-}
-.progress__main::-webkit-progress-bar {
-  border-radius: 50px; /* Redondea el contorno de la barra de progreso */
-  background-color: #f3f3f3;
-}

@@ -1,0 +1,54 @@
+.movie_card__main {
+  width: 14rem;
+  height: 22rem;
+  background-color: var(--background);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  overflow: hidden;
+  flex: 0 0 auto;
+}
+
+.movie_card__main img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.movie_card__info{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  padding: 0.5rem;
+  justify-content: space-around;
+}
+
+.movie_card__info span,
+.movie_card__info small{
+  color: white;
+}
+
+.movie_card__info span h2{
+  font-weight: bolder;
+}
+
+
+.movie_card_info__rate{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.movie_card_info__rate div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+

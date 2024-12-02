@@ -1,0 +1,69 @@
+.sidemenu__main {
+  background-color: var(--background);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.sidemenu__searchfilter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.sidemenu__searchfilter h1 {
+  color: white;
+}
+
+.sidemenu__searchfilter div {
+  width: 100%;
+  position: relative;
+}
+
+.sidemenu__searchfilter div input {
+  padding: 0.8rem;
+  background: var(--input-background);
+  color: white;
+  border: none;
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+
+.sidemenu__searchfilter div input::placeholder {
+  color: rgb(194, 193, 193);
+}
+
+.sidemenu__searchfilter div svg {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  bottom: 0;
+}
+
+.sidemenu__genreflter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.sidemenu__genreflter h1 {
+  color: white;
+}
+
+.sidemenu__genreflter select {
+  width: 100%;
+  background: var(--input-background);
+  padding: 0.8rem 2rem 0.8rem 2rem;
+  border: none;
+  color: white;
+}
