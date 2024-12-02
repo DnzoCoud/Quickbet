@@ -5,7 +5,9 @@ export default function Template({ children }: { children: React.ReactNode }) {
   return (
     <>
       <Header />
-      {children}
+      <div className="flex" style={{ flexDirection: "column" }}>
+        {children}
+      </div>
     </>
   );
 }

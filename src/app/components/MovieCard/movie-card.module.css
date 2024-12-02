@@ -1,0 +1,18 @@
+.movie_card__main {
+  width: 14rem;
+  height: 22rem;
+  background-color: var(--background);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  overflow: hidden;
+  flex: 0 0 auto;
+}
+
+.movie_card__main img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}

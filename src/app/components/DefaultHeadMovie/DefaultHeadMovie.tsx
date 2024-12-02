@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import DefaultMovie from "./default_movie.jpg";
 import Image from "next/image";
@@ -14,6 +15,7 @@ export default function DefaultHeadMovie() {
         height={600}
         alt="default movie"
         className={cn("w-full h-full")}
+        priority
       />
 
       <div

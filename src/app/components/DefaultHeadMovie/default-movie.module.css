@@ -3,7 +3,7 @@
 }
 
 .default__main img {
-  object-fit: fill;
+  object-fit: scale-up;
   aspect-ratio: 16/9;
 }
 
@@ -15,9 +15,13 @@
     rgba(0, 212, 255, 0) 100%
   );
   color: white;
-  align-items: end;
+  align-items: flex-end;
   justify-content: space-between;
   padding: 3rem;
+
+  -webkit-box-shadow: 1px 9px 37px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 9px 37px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 9px 37px -7px rgba(0, 0, 0, 0.75);
 }
 
 .default__info {
@@ -31,6 +35,6 @@
   gap: 0.8rem;
   width: 50%;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
   gap: 2rem;
 }
