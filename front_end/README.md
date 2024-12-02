@@ -9,7 +9,6 @@ Este es un proyecto desarrollado con **Next.js** framework para la creación de 
 - [Requisitos](#requisitos)
 - [Instalación](#instalación)
 - [Uso](#uso)
-- [Ejecución](#ejecución)
 
 ## Descripción
 
@@ -33,9 +32,11 @@ Este proyecto es una aplicación web construida con **Next.js**, un framework de
    ```bash
    git clone https://github.com/DnzoCoud/Quickbet.git
    cd Quickbet
+   cd front_end
    ```
 2. Instala las dependencias:
    ```bash
+   
    npm install
    ```
 
@@ -48,6 +49,7 @@ Este proyecto es una aplicación web construida con **Next.js**, un framework de
    ```
 
 2. Inicia la app con el comando:
+
    ```bash
    npm run start
    ```
