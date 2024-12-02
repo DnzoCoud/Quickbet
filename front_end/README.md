@@ -9,6 +9,7 @@ Este es un proyecto desarrollado con **Next.js** framework para la creación de 
 - [Requisitos](#requisitos)
 - [Instalación](#instalación)
 - [Uso](#uso)
+- [Ejecución](#ejecución)
 
 ## Descripción
 
@@ -50,3 +51,5 @@ Este proyecto es una aplicación web construida con **Next.js**, un framework de
    ```bash
    npm run start
    ```
+
+3. La aplicación estará disponible en [http://localhost:3000](http://localhost:3000).
